@@ -26,14 +26,6 @@ int main()
 	GPIO_PeriCockControl(GPIOC, ENABLE);
 	GPIO_Init(&GPIO_Led);
 
-	// GPIO_Led.pGPIOx = GPIOB;
-	// GPIO_Led.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_12;
-	// GPIO_Led.GPIO_PinConfig.GPIO_PinType = GPIO_MODE_IN;
-	// GPIO_Led.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_IN_PLPD;
-
-	// GPIO_PeriCockControl(GPIOB, ENABLE);
-	// GPIO_Init(&GPIO_BTN);
-
 	while(1)
 	{
 			delay();
